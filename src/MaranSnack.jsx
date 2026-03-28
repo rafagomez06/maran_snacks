@@ -430,7 +430,7 @@ export default function MaranSnack() {
 
         <div className="logo-circle-wrap">
           <img
-            src= {PACKAGES+"maran_snack_logo.jpg"}
+            src= {PATH+"maran_snack_logo.jpg"}
             alt="Maran Snack Logo"
             onError={(e) => {
               e.target.src =
