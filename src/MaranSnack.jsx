@@ -409,7 +409,6 @@ const WaIcon = ({ size = 26 }) => (
 // ============================================================
 export default function MaranSnack() {
   //const [imgErrors, setImgErrors] = useState({});
-
   return (
     <>
       <style>{globalStyles}</style>
@@ -431,7 +430,7 @@ export default function MaranSnack() {
 
         <div className="logo-circle-wrap">
           <img
-            src="src/assets/img/maran_snack_logo.jpg"
+            src= {PACKAGES+"maran_snack_logo.jpg"}
             alt="Maran Snack Logo"
             onError={(e) => {
               e.target.src =
