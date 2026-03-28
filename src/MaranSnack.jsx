@@ -4,7 +4,7 @@ const WHATSAPP_NUMBER = "526673938879";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hola! Me interesa cotizar un paquete de Maran Snack 🍿",
 );
-const PATH = "src/assets/img/";
+const PATH = "/img/";
 
 const MENU_ITEMS = [
   {
